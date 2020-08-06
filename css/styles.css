@@ -26,7 +26,7 @@
   --gray-dark: #343a40;
   --primary: #1abc9c;
   --secondary: #2c3e50;
-  --success: #28a745;
+  --success: #420a0a;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -2465,14 +2465,14 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #DFAD7B;
+  border-color: #DFAD7B;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  background-color: #DFAD7B;
+  border-color: #DFAD7B;
+  box-shadow: 0 0 0 0.2rem rgba(223, 173, 123, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -2481,11 +2481,11 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #148f77;
+  background-color: #DFAD7B;
   border-color: #12846e;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(223, 173, 123, 0.5);
 }
 
 .btn-secondary {
@@ -2532,7 +2532,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #218838;
   border-color: #1e7e34;
-  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(223, 173, 123, 0.5);
 }
 .btn-success.disabled, .btn-success:disabled {
   color: #fff;
@@ -2767,7 +2767,7 @@ fieldset:disabled a.btn {
 .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
   background-color: #cabfa9;
-  border-color: #28a745;
+  border-color: #420a0a;
 }
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
@@ -2904,7 +2904,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #117964;
+  color: #420a0a;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -3510,7 +3510,7 @@ input[type=button].btn-block {
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
 }
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #6bebd1;
+  border-color: #420a0a;
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
@@ -3631,7 +3631,7 @@ input[type=button].btn-block {
           appearance: none;
 }
 .custom-select:focus {
-  border-color: #6bebd1;
+  border-color: #420a0a;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
 }
@@ -3689,7 +3689,7 @@ input[type=button].btn-block {
   opacity: 0;
 }
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #6bebd1;
+  border-color: #420a0a;
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
 }
 .custom-file-input[disabled] ~ .custom-file-label, .custom-file-input:disabled ~ .custom-file-label {
@@ -3777,7 +3777,7 @@ input[type=button].btn-block {
   }
 }
 .custom-range::-webkit-slider-thumb:active {
-  background-color: #98f1df;
+  background-color: #420a0a;
 }
 .custom-range::-webkit-slider-runnable-track {
   width: 100%;
@@ -4689,7 +4689,7 @@ a.badge:hover, a.badge:focus {
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #148f77;
+  background-color: #DFAD7B;
 }
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
@@ -4711,7 +4711,7 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 
 .badge-success {
   color: #fff;
-  background-color: #28a745;
+  background-color: #420a0a;
 }
 a.badge-success:hover, a.badge-success:focus {
   color: #fff;
@@ -6076,7 +6076,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #DFAD7B !important;
 }
 
 .bg-secondary {
@@ -10128,7 +10128,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(66, 10, 10, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
